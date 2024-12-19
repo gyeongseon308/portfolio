@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>조경선의 포트폴리오</title>
+    <script src="https://kit.fontawesome.com/726123dd1b.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Nanum+Gothic+Coding&family=Noto+Sans+KR:wght@100..900&display=swap"
+        rel="stylesheet">
+    <link href="https://websseu.github.io/fontkor/fonts/NexonLv1Gothic/NexonLv1Gothic.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="pofol.css">
+    <script src="portfolio.js"></script>
+</head>
+
+<body>
+    <div id="header">
+        <h1><a href="index.html"><img src="images/logo.png" alt="경선로고"></a></h1>
+        <ul>
+            <li><a href="#section1">INTRO</a></li>
+            <li><a href="#section2">PROFILE</a></li>
+            <li><a href="#section3">PROJECT</a></li>
+            <li><a href="#section4">JAVASCRIPT</a></li>
+            <li><a href="#section5">CONNECT</a></li>
+        </ul>
+        <div class="hamburger_menu">
+            <div class="hamburger_bar">
+                <div class="hamburg_logo"><a href="index.html">gyeongseon</a></div>
+                <div class="hamburger_icon"><i class="fa-solid fa-bars"></i></div>
+            </div>
+            <div class="column_box">
+                <div class="close"><i class="fa-solid fa-xmark"></i></div>
+                <div class="hamburg_menu">
+                    <ul class="hamburg_gnb">
+                        <li>
+                            <div class="link_menu view">
+                                <a href="#section1">INTRO</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="link_menu">
+                                <a href="#section2">PROFILE</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="link_menu link_p">
+                                <a href="#">PROJECT</a>
+                                <p class="open">+</p>
+                                <p class="shut">━</p>
+                            </div>
+                            <ul class="hamburg_sub">
+                                <li class="on" data-target="p1">01.LUSH</li>
+                                <li data-target="p2">02.DYSON</li>
+                                <li data-target="p3">03.KODAK</li>
+                                <li data-target="p4">04.DUO</li>
+                                <li data-target="p5">05.DORCO</li>
+                                <li data-target="p6">06.SAMYANG</li>
+                                <li data-target="p7">07.CU</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <div class="link_menu">
+                                <a href="#section4">JAVASCRIPT</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="link_menu">
+                                <a href="#section5">CONNECT</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="section">
+        <div class="quick_menu">
+            <ul class="quick_sub on">
+                <li><a href="#section1"><i class="fa-solid fa-house"></i>
+                    <p>INTRO</p>
+                    </a>
+                </li>
+                <li><a href="#section2"><i class="fa-solid fa-user"></i>
+                    <p>PROFILE</p>
+                    </a>
+                </li>
+                <li><a href="#section3"><i class="fa-solid fa-chalkboard"></i>
+                    <p>PROJECT</p>
+                    </a>
+                </li>
+                <li><a href="#section4"><i class="fa-brands fa-square-js"></i>
+                    <p>JAVASCRIPT</p>
+                    </a>
+                </li>
+                <li><a href="#section5"><i class="fa-solid fa-phone"></i>
+                    <p>CONNECT</p>
+                    </a>
+                </li>
+            </ul>
+            <div class="quick_btn"><i class="fa-solid fa-circle-plus"></i></div>
+        </div>
+        <div id="section1">
+            <h1><img src="images/main_text.png" alt="portfolio글자"></h1>
+        </div>
+        <div id="section2">
+            <div class="profile_content">
+                <h1>PROFILE</h1>
+                <div class="profile_wrap">
+                    <div class="profile_box">
+                        <ul class="aboutme">
+                            <li>
+                                <h1>ABOUT ME</h1>
+                            </li>
+                            <li>
+                                <h2>NAME</h2>
+                                <p>조경선 <span>CHO GYEONGSEON</span></p>
+                            </li>
+                            <li>
+                                <h2>BIRTH</h2>
+                                <p>1996.03.08</p>
+                            </li>
+                            <li>
+                                <h2>PHONE</h2>
+                                <p>010-7114-0038</p>
+                            </li>
+                            <li>
+                                <h2>EMAIL</h2>
+                                <p>zooin308@naver.com</p>
+                            </li>
+                        </ul>
+                        <ul class="education">
+                            <li>
+                                <h1>EDUCATION</h1>
+                            </li>
+                            <li>
+                                <h2>2024. 05 ~ 2024. 11</h2>
+                                <p>더조은컴퓨터아트학원 <span>웹퍼블리셔(웹디자인)&프론트엔드개발과정 수료</span></p>
+                            </li>
+                            <li>
+                                <h2>2015. 03 ~ 2019. 02</h2>
+                                <p>한국성서대학교 영유아보육학과 졸업</p>
+                            </li>
+                            <li>
+                                <h2>2012. 03 ~ 2015. 02</h2>
+                                <p>경민고등학교 졸업</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="profile_box">
+                        <ul class="certificate">
+                            <li>
+                                <h1>CERTIFICATE</h1>
+                            </li>
+                            <li>
+                                <h2>2024</h2>
+                                <p>2종보통운전면허</p>
+                            </li>
+                            <li>
+                                <h2>2023</h2>
+                                <p>보육교사 1급</p>
+                            </li>
+                            <li>
+                                <h2>2015</h2>
+                                <p>보육교사 2급</p>
+                            </li>
+                            <li>
+                                <h2>2015</h2>
+                                <p>장애영유아를 위한 보육교사</p>
+                            </li>
+                        </ul>
+                        <ul class="career">
+                            <li>
+                                <h1>CAREER</h1>
+                            </li>
+                            <li>
+                                <h2>2024. 04 ~ 2024. 05</h2>
+                                <p>청라한신더휴 국공립어린이집</p>
+                            </li>
+                            <li>
+                                <h2>2019. 10 ~ 2024. 02</h2>
+                                <p>한솔교육&CJ키즈빌 어린이집</p>
+                            </li>
+                            <li>
+                                <h2>2019. 03 ~ 2019. 10</h2>
+                                <p>마포구청직장 어린이집</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="profile_bottom">
+                <div><img src="images/profile_gs.png" alt="조경선 사진"></div>
+                <ul class="myskill">
+                    <li>
+                        <h1>SKILLS</h1>
+                    </li>
+                    <li>
+                        <div>
+                            <p><img src="skill/illustrator.png" alt="일러스트아이콘"></p>
+                            <p><img src="skill/photoshop.png" alt="포토샵아이콘"></p>
+                            <p><img src="skill/vscode.png" alt="vscode아이콘"></p>
+                            <p><img src="skill/html5.png" alt="html아이콘"></p>
+                            <p><img src="skill/css3.png" alt="css아이콘"></p>
+                        </div>
+                        <div>
+                            <p><img src="skill/figma.png" alt="피그마아이콘"></p>
+                            <p><img src="skill/jquery.png" alt="jquery아이콘"></p>
+                            <p><img src="skill/javascript.png" alt="javascript아이콘"></p>
+                            <p><img src="skill/git.png" alt="git아이콘"></p>
+                            <p><img src="skill/github.png" alt="github아이콘"></p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div id="section3">
+            <h2 class="blind">PROJECT</h2>
+            <ul class="project_list">
+                <li class="project">
+                    <div class="inner">
+                        <h3 class="title">LUSH</h3>
+                        <span class="pagination">01</span>
+                        <div class="txt-box">
+                            <p class="desc">러쉬가 추구하는 기업윤리와 신념을 알리며 시각적으로 매력적인 레이아웃과 정보를 쉽게 탐색할 수 있도록
+                                정보구조와 UI를 구성하고 자연친화적인 러쉬제품을 효과적으로 알릴 수 있도록 구현</p>
+                            <div class="period">
+                                <p><span>제작기간</span></p>
+                                <p>24. 07 .14 ~ 24. 09. 13</p>
+                            </div>
+                            <div class="keyword">
+                                <span>#메인페이지 제작</span>
+                                <span>#팀프로젝트</span>
+                                <span>#반응형</span>
+                            </div>
+                        </div>
+                        <div class="btn-box">
+                            <a href="https://gyeongseon308.github.io/new-lush/">
+                                View Site
+                                <svg viewBox="0 0 105 62" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M0 31H103M103 31L73.5 1.5M103 31L73.5 60.5" stroke="#010202"
+                                        stroke-width="2" vector-effect="non-scaling-stroke"></path>
+                                </svg>
+                            </a>
+                            <a
+                                href="https://drive.google.com/file/d/1x8-L1LQT1wScIG7T4wAk-1wfsj80AzPV/view?usp=drive_link">
+                                프로젝트 보고서
+                                <svg viewBox="0 0 105 62" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M0 31H103M103 31L73.5 1.5M103 31L73.5 60.5" stroke="#010202"
+                                        stroke-width="2" vector-effect="non-scaling-stroke"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+                <li class="project">
+                    <div class="inner">
+                        <h3 class="title">DYSON</h3>
+                        <span class="pagination">02</span>
+                        <div class="txt-box">
+                            <p class="desc">메인 페이지 진입과 동시에 다이슨의 헤드폰을 경험할 수 있도록 설계, 다이슨 주요 기술 특징에 맞는
+                                모션 그래픽이나 인터랙션 요소들을 적절히 배치하여 소리를 시각적으로 탐색할 수 있도록 구현</p>
+                            <div class="period">
+                                <p><span>제작기간</span></p>
+                                <p>24. 10 .04 ~ 24. 10. 14</p>
+                            </div>
+                            <div class="keyword">
+                                <span>#반응형</span>
+                                <span>#기여도 100%</span>
+                                <span>#개인작업물물</span>
+                            </div>
+                        </div>
+                        <div class="btn-box">
+                            <a href="https://gyeongseon308.github.io/dyson/">
+                                View Site
+                                <svg viewBox="0 0 105 62" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M0 31H103M103 31L73.5 1.5M103 31L73.5 60.5" stroke="#010202"
+                                        stroke-width="2" vector-effect="non-scaling-stroke"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+                <li class="project">
+                    <div class="inner">
+                        <h3 class="title">KODAK</h3>
+                        <span class="pagination">03</span>
+                        <div class="txt-box">
+                            <p class="desc">브랜드의 컬러, 그래픽을 적극적으로 활용하여 브랜드 아이덴티티를 사용자에게 각인시키고자 설계,
+                                고객이 니즈에 맞춰 제품을 편리하게 탐색할 수있도록 구성</p>
+                            <div class="period">
+                                <p><span>제작기간</span></p>
+                                <p>24. 07 .01 ~ 24. 07. 12</p>
+                            </div>
+                            <div class="keyword">
+                                <span>#반응형</span>
+                                <span>#기여도 100%</span>
+                                <span>#개인작업물물</span>
+                            </div>
+                        </div>
+                        <div class="btn-box">
+                            <a href="https://wonkyoung-kim.github.io/wanted" target="_blank">
+                                View Site
+                                <svg viewBox="0 0 105 62" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M0 31H103M103 31L73.5 1.5M103 31L73.5 60.5" stroke="#010202"
+                                        stroke-width="2" vector-effect="non-scaling-stroke"></path>
+                                </svg>
+                            </a>
+                        </div>
+                </li>
+                <li class="project">
+                    <div class="inner">
+                        <h3 class="title">DUO</h3>
+                        <span class="pagination">04</span>
+                        <div class="txt-box">
+                            <p class="desc">중복되었던 홍보성 이미지와 카테고리를 정돈하여 가독성을 높이고 사용자의 접근 기능을 높일 수 있도록 리뉴얼</p>
+                            <div class="period">
+                                <p><span>제작기간</span></p>
+                                <p>24. 10 .15 ~ 24. 10. 24</p>
+                            </div>
+                            <div class="keyword">
+                                <span>#팀프로젝트</span>
+                                <span>#메인페이지 디자인</span>
+                                <span>#서브페이지 제작</span>
+                                <span>#적응형</span>
+                            </div>
+                        </div>
+                        <div class="btn-box">
+                            <a href="https://gyeongseon308.github.io/newduo/">
+                                View Site
+                                <svg viewBox="0 0 105 62" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M0 31H103M103 31L73.5 1.5M103 31L73.5 60.5" stroke="#010202"
+                                        stroke-width="2" vector-effect="non-scaling-stroke"></path>
+                                </svg>
+                            </a>
+                            <a
+                                href="https://drive.google.com/file/d/1G60_Xi81yhYwHF8TWsNi79XjV1uvhuO5/view?usp=sharing">
+                                팀프로젝트 보고서
+                                <svg viewBox="0 0 105 62" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M0 31H103M103 31L73.5 1.5M103 31L73.5 60.5" stroke="#010202"
+                                        stroke-width="2" vector-effect="non-scaling-stroke"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+                <li class="project">
+                    <div class="inner">
+                        <h3 class="title">DORCO</h3>
+                        <span class="pagination">05</span>
+                        <div class="txt-box">
+                            <p class="desc">도루루코의 메인페이지와 고객센터 페이지를 클론코딩하면서 웹사이트의 동적인 기능들을 구현 및 해당 기술을 학습</p>
+                            <div class="period">
+                                <p><span>제작기간</span></p>
+                                <p>24. 08 .01 ~ 24. 08. 13</p>
+                            </div>
+                            <div class="keyword">
+                                <span>#기여도 100%</span>
+                                <span>#개인작업물</span>
+                                <span>#클론코딩</span>
+                                <span>#적응형</span>
+                            </div>
+                        </div>
+                        <div class="btn-box">
+                            <a href="https://gyeongseon308.github.io/drco/">
+                                View Site
+                                <svg viewBox="0 0 105 62" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M0 31H103M103 31L73.5 1.5M103 31L73.5 60.5" stroke="#010202"
+                                        stroke-width="2" vector-effect="non-scaling-stroke"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+                <li class="project">
+                    <div class="inner">
+                        <h3 class="title">SAMYANG</h3>
+                        <span class="pagination">06</span>
+                        <div class="txt-box">
+                            <p class="desc">삼양 페이지의 기능과 디자인을 재구현하는 경험을 통해 텝메뉴 구현과 오토슬라이드 등 콘텐츠의 동적인 이벤트를
+                            적용하는 방법 학습</p>
+                            <div class="period">
+                                <p><span>제작기간</span></p>
+                                <p>24. 09 .11 ~ 24. 09. 13</p>
+                            </div>
+                            <div class="keyword">
+                                <span>#기여도 100%</span>
+                                <span>#개인작업물</span>
+                                <span>#클론코딩</span>
+                                <span>#적응형</span>
+                            </div>
+                        </div>
+                        <div class="btn-box">
+                            <a href="https://gyeongseon308.github.io/samyang/">
+                                View Site
+                                <svg viewBox="0 0 105 62" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M0 31H103M103 31L73.5 1.5M103 31L73.5 60.5" stroke="#010202"
+                                        stroke-width="2" vector-effect="non-scaling-stroke"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+                <li class="project">
+                    <div class="inner">
+                        <h3 class="title">CU</h3>
+                        <span class="pagination">07</span>
+                        <div class="txt-box">
+                            <p class="desc"><span>CU 페이지의 기능과 디자인을 클론코딩하여 html의 문법과 구조를 익히고 CSS를 통해
+                                스타일과 동적인 효과를</span> 적용하는 방법을 학습</p>
+                            <div class="period">
+                                <p><span>제작기간</span></p>
+                                <p>24. 07 .15 ~ 24. 07. 22</p>
+                            </div>
+                            <div class="keyword">
+                                <span>#기여도 100%</span>
+                                <span>#개인작업물</span>
+                                <span>#클론코딩딩</span>
+                                <span>#적응형</span>
+                            </div>
+                        </div>
+                        <div class="btn-box">
+                            <a href="https://gyeongseon308.github.io/cu_2/">
+                                View Site
+                                <svg viewBox="0 0 105 62" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M0 31H103M103 31L73.5 1.5M103 31L73.5 60.5" stroke="#010202"
+                                        stroke-width="2" vector-effect="non-scaling-stroke"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div id="section4">
+            <h1>JAVASCRIPT</h1>
+            <img src="images/hashtag.png" alt="해시테그">
+            <ul class="javascript">
+                <li>
+                    <a href="https://gyeongseon308.github.io/todolist/">
+                        <p>(01)</p>
+                        <h3>TODO LIST</h3>
+                        <h1><img src="images/todolist.png" alt="todolist 사진"></h1>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://gyeongseon308.github.io/accodian/">
+                        <p>(02)</p>
+                        <h3>ACCODIAN MENU</h3>
+                        <h1><img src="images/accodian.png" alt="아코디언 사진"></h1>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://gyeongseon308.github.io/lotto/">
+                        <p>(03)</p>
+                        <h3>LOTTO</h3>
+                        <h1><img src="images/lotto.png" alt="로또 사진"></h1>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://gyeongseon308.github.io/discount/">
+                        <p>(04)</p>
+                        <h3>DISCOUNT CALCULATION PROGRAM</h3>
+                        <h1><img src="images/discount.png" alt="할인 계산 프로그램"></h1>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div id="section5">
+            <div class="connect">
+                <h1>©CHO GYEONG SEON</h1>
+                <ul>
+                    <li><a href="#">© 2024</a></li>
+                    <li><a href="tel:010-7114-0038">010-7114-0038</a></li>
+                    <li><a href="mailto:zooin308@naver.com" target="_blank">zooin308@naver.com</a></li>
+                    <li><a href="https://github.com/dashboard">GIHUB</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
